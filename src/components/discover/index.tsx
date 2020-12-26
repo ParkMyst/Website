@@ -1,5 +1,6 @@
 import { FunctionalComponent, h } from "preact";
-import SmoothScroll from "../smooth-scroll";
+import { ButtonBack, ButtonNext, CarouselProvider, Slide, Slider } from "pure-react-carousel";
+import 'pure-react-carousel/dist/react-carousel.es.css';
 import * as style from "./style.css";
 
 const Discover: FunctionalComponent = () => {
@@ -7,10 +8,29 @@ const Discover: FunctionalComponent = () => {
         <div class={style.discover}>
             <a id="Discover"></a>
             <div class={style.imageScroller}>
-                <img src="http://via.placeholder.com/1920x1080"></img>
+
+                <CarouselProvider
+                    naturalSlideWidth={100}
+                    naturalSlideHeight={50}
+                    totalSlides={3}
+                    infinite={true}
+                    isPlaying={true}
+                >
+                    <Slider>
+                    <Slide index={0}>
+                            <img class={style.scrollerImg} src="http://via.placeholder.com/1920x1080" />     
+                    </Slide>
+                    <Slide index={1}>
+                        <img class={style.scrollerImg} src="http://via.placeholder.com/720x480" />        
+                    </Slide>
+                    <Slide index={2}>
+                        <img class={style.scrollerImg} src="http://via.placeholder.com/1980x1020" />        
+                    </Slide>
+                    </Slider>
+                </CarouselProvider>
             </div>
             <div class={style.niceImage}>
-                <img src="http://via.placeholder.com/1920x1080"></img>
+                <img src="../../assets/content/promo3.png"></img>
             </div>
             <div class={style.niceText}>
                 <h1>What we do</h1>
@@ -33,7 +53,7 @@ const Discover: FunctionalComponent = () => {
                 <img src="http://via.placeholder.com/1920x1080"></img>
             </div>
             <div class={style.niceImage}>
-                <img src="http://via.placeholder.com/1920x1080"></img>
+                <img src="../../assets/content/promo4.png"></img>
             </div>
             <div class={style.niceText}>
                 <h1>About stuff</h1>

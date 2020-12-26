@@ -1,8 +1,9 @@
 .title {
-	height: 80vh;
-	background-image: url("../../assets/title_background.png");
+	height: 95vh;
+	background-image: url("../../assets/content/title_background.png");
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position-x: right;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

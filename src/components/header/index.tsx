@@ -33,11 +33,14 @@ const Header: FunctionalComponent = () => {
         <header class={classes.join(" ")}>
             <img src="../../assets/parkmyst_logo.png" />
             <nav>
-                <SmoothScroll scrollToId="Title">Home</SmoothScroll>
+                <SmoothScroll scrollToId="Title">Discover</SmoothScroll>
                 <SmoothScroll scrollToId="AboutUs">About us</SmoothScroll>
                 <SmoothScroll scrollToId="ContactUs">Contact</SmoothScroll>
-                <SmoothScroll scrollToId="HowToPlay">How to Play</SmoothScroll>
+                <SmoothScroll scrollToId="HowToPlay">Play</SmoothScroll>
             </nav>
+            <div>
+                <a href="https://play.parkmyst.hu">Login</a>
+            </div>
         </header>
     );
 };

@@ -8,12 +8,13 @@
 	width: 80vw;
 }
 
-.imageScroller img {
+.scrollerImg {
 	width: 100%;
 }
 
 .niceImage {
 	width: 40vw;
+	min-width: 300px;
 }
 
 .niceImage img {
@@ -22,4 +23,5 @@
 
 .niceText {
 	width: 40vw;
+	min-width: 300px;
 }
