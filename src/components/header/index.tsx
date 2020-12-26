@@ -1,6 +1,5 @@
 import { FunctionalComponent, h } from "preact";
 import { useEffect, useState } from "preact/hooks";
-import ParkMystLogo from '../../assets/parkmyst_logo.png';
 import SmoothScroll from "../smooth-scroll";
 import * as style from "./style.css";
 
@@ -32,7 +31,7 @@ const Header: FunctionalComponent = () => {
 
     return (
         <header class={classes.join(" ")}>
-            <img src={ParkMystLogo} />
+            <img src="../../assets/parkmyst_logo.png" />
             <nav>
                 <SmoothScroll scrollToId="Title">Home</SmoothScroll>
                 <SmoothScroll scrollToId="AboutUs">About us</SmoothScroll>
