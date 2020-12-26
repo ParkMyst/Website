@@ -1,0 +1,25 @@
+.discover {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.imageScroller {
+	width: 80vw;
+}
+
+.imageScroller img {
+	width: 100%;
+}
+
+.niceImage {
+	width: 40vw;
+}
+
+.niceImage img {
+	width: 100%;
+}
+
+.niceText {
+	width: 40vw;
+}

@@ -1,0 +1,49 @@
+.title {
+	height: 80vh;
+	background-image: url("../../assets/title_background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 60px;
+}
+
+.title h1 {
+	font-size: 4rem;
+	color: #0149b8;
+	font-family: "Work Sans", Courier, monospace;
+	margin: 0px;
+}
+
+.title p {
+	width: 300px;
+	font-size: 1.2rem;
+	font-family: "Work Sans", Courier, monospace;
+}
+
+.title p span {
+	font-weight: bold;
+}
+
+.title div {
+	display: flex;
+}
+
+.title div a {
+	padding: 0 10px;
+}
+
+.title div a span {
+	display: flex;
+	height: 125%;
+	width: 125%;
+	align-items: center;
+	justify-content: center;
+}
+
+.roundButton {
+	background-color: #3385ff;
+	border-radius: 30px;
+	color: white;
+}
