@@ -4,38 +4,27 @@
 	left: 0;
 	top: 0;
 	width: 100%;
-	height: 56px;
 	padding: 0;
 	background: rgba(0, 0, 0, 0);
 	z-index: 50;
-	transition: 0.75s;
+	transition: 0.5s;
 }
 
 .header nav {
-	display: flex;
+	display: block;
+	width: 100%;
 }
 
 .solidHeader {
 	background: #f7f8fb;
-	transition: 0.75s;
+	transition: 0.5s;
 }
 
 .header img {
-	padding: 6px 6px 6px 6px;
-	width: 56px;
-	height: 56px;
-}
-
-.header nav {
-	font-size: 100%;
+	display: none;
 }
 
 .header nav a {
-	display: inline-block;
-	height: 56px;
-	line-height: 56px;
-	padding: 0 15px;
-	min-width: 50px;
 	text-align: center;
 	background: rgba(255, 255, 255, 0);
 	text-decoration: none;
@@ -53,11 +42,12 @@
 }
 
 .header div {
-	margin: 0 0 0 auto;
+	margin: 0 20px 0 auto;
 	height: 56px;
 	min-width: 50px;
 	display: flex;
 	align-items: center;
+	transition: 0.5s;
 }
 
 .header div a {
@@ -70,11 +60,85 @@
 	line-height: 30px;
 }
 
-@media only screen and (max-width: 500px) {
-	.header nav {
-		justify-content: center;
+.header div a:hover {
+	background-color: #0149b8;
+}
+
+@media only screen and (min-width: 1024px) {
+	.header {
+		position: fixed;
+		display: flex;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 56px;
+		padding: 0;
+		background: rgba(0, 0, 0, 0);
+		z-index: 50;
+		transition: 0.75s;
 	}
+
+	.header nav {
+		display: flex;
+	}
+
+	.solidHeader {
+		background: #f7f8fb;
+		transition: 0.5s;
+	}
+
 	.header img {
-		display: none;
+		padding: 6px 6px 6px 6px;
+		width: 56px;
+		height: 56px;
+	}
+
+	.header nav {
+		font-size: 100%;
+	}
+
+	.header nav a {
+		display: inline-block;
+		height: 56px;
+		line-height: 56px;
+		padding: 0 15px;
+		min-width: 50px;
+		text-align: center;
+		background: rgba(255, 255, 255, 0);
+		text-decoration: none;
+		color: #000;
+		will-change: background-color;
+	}
+
+	.header nav a:hover,
+	.header nav a:active {
+		background: rgba(0, 0, 0, 0.2);
+	}
+
+	.header nav a.active {
+		background: rgba(0, 0, 0, 0.4);
+	}
+
+	.header div {
+		margin: 0 20px 0 auto;
+		height: 56px;
+		min-width: 50px;
+		display: flex;
+		align-items: center;
+		transition: 0.5s;
+	}
+
+	.header div a {
+		display: inline-block;
+		padding: 0 15px;
+		background-color: #3385ff;
+		border-radius: 30px;
+		color: white;
+		text-decoration: none;
+		line-height: 30px;
+	}
+
+	.header div a:hover {
+		background-color: #0149b8;
 	}
 }

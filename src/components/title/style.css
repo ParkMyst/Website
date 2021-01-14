@@ -1,25 +1,29 @@
-.title {
-	height: 95vh;
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
 	background-image: url("../../assets/content/title_background.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position-x: right;
+}
+
+.title {
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding-left: 60px;
+	cursor: default;
 }
 
 .title h1 {
-	font-size: 4rem;
+	font-size: 3rem;
 	color: #0149b8;
 	font-family: "Work Sans", Courier, monospace;
-	margin: 0px;
+	margin: 0;
 }
 
 .title p {
-	width: 300px;
-	font-size: 1.2rem;
 	font-family: "Work Sans", Courier, monospace;
 }
 
@@ -29,22 +33,138 @@
 
 .title div {
 	display: flex;
+	justify-content: center;
 }
 
 .title div a {
-	padding: 0 10px;
+	padding: 0 25px;
 }
 
 .title div a span {
 	display: flex;
-	height: 125%;
-	width: 125%;
 	align-items: center;
 	justify-content: center;
+	font-size: 1.1em;
+	padding: 3px 10px;
 }
 
 .roundButton {
 	background-color: #3385ff;
 	border-radius: 30px;
 	color: white;
+}
+
+.anchor {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.playButton {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.playButton div a {
+	padding: 5px 45px;
+	background-color: #3385ff;
+	border-radius: 40px;
+	color: white;
+	text-decoration: none;
+	font-size: 2rem;
+	transition: 0.5s;
+}
+
+.playButton div a:hover {
+	background-color: #0149b8;
+}
+
+@media only screen and (min-width: 1024px) {
+	.wrapper {
+		display: flex;
+		width: 100vw;
+		background-image: url("../../assets/content/title_background.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position-x: right;
+	}
+
+	.title {
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-left: 120px;
+		cursor: default;
+	}
+
+	.title h1 {
+		font-size: 6rem;
+		color: #0149b8;
+		font-family: "Work Sans", Courier, monospace;
+		margin: 0;
+	}
+
+	.title p {
+		width: 400px;
+		font-size: 1.4rem;
+		font-family: "Work Sans", Courier, monospace;
+	}
+
+	.title p span {
+		font-weight: bold;
+	}
+
+	.title div {
+		display: flex;
+		justify-content: center;
+		width: 400px;
+	}
+
+	.title div a {
+		padding: 0 25px;
+	}
+
+	.title div a span {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 1.1em;
+		padding: 3px 10px;
+	}
+
+	.roundButton {
+		background-color: #3385ff;
+		border-radius: 30px;
+		color: white;
+	}
+
+	.anchor {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.playButton {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.playButton div a {
+		padding: 5px 45px;
+		background-color: #3385ff;
+		border-radius: 40px;
+		color: white;
+		text-decoration: none;
+		font-size: 5rem;
+		transition: 0.5s;
+	}
+
+	.playButton div a:hover {
+		background-color: #0149b8;
+	}
 }
