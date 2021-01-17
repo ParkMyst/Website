@@ -5,14 +5,15 @@
 	top: 0;
 	width: 100%;
 	padding: 0;
-	background: rgba(0, 0, 0, 0);
 	z-index: 50;
-	transition: 0.5s;
+	background: #f7f8fb;
 }
 
 .header nav {
-	display: block;
+	display: flex;
+	justify-content: space-evenly;
 	width: 100%;
+	padding: 7px 0;
 }
 
 .solidHeader {
@@ -42,26 +43,7 @@
 }
 
 .header div {
-	margin: 0 20px 0 auto;
-	height: 56px;
-	min-width: 50px;
-	display: flex;
-	align-items: center;
-	transition: 0.5s;
-}
-
-.header div a {
-	display: inline-block;
-	padding: 0 15px;
-	background-color: #3385ff;
-	border-radius: 30px;
-	color: white;
-	text-decoration: none;
-	line-height: 30px;
-}
-
-.header div a:hover {
-	background-color: #0149b8;
+	display: none;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -88,6 +70,7 @@
 	}
 
 	.header img {
+		display: inline;
 		padding: 6px 6px 6px 6px;
 		width: 56px;
 		height: 56px;
@@ -95,6 +78,8 @@
 
 	.header nav {
 		font-size: 100%;
+		justify-content: unset;
+		padding: unset;
 	}
 
 	.header nav a {

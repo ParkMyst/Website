@@ -20,7 +20,7 @@ const Title: FunctionalComponent = () => {
                     </SmoothScroll>
                 </div>
             </div>
-            <div className={style.playButton}>
+            <div className={style.playButtonWrapper}>
                 <div>
                     <a href="https://play.parkmyst.hu">Let's play!</a>
                 </div>

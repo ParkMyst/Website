@@ -2,18 +2,19 @@
 	display: flex;
 	flex-direction: column;
 	width: 100vw;
+	height: 100vh;
 	background-image: url("../../assets/content/title_background.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position-x: right;
+	background-attachment: fixed;
 }
 
 .title {
-	height: 100vh;
 	display: flex;
+	padding: 45px 10px 0 10px;
 	flex-direction: column;
 	justify-content: center;
-	cursor: default;
 }
 
 .title h1 {
@@ -25,6 +26,7 @@
 
 .title p {
 	font-family: "Work Sans", Courier, monospace;
+	margin: 30px 0;
 }
 
 .title p span {
@@ -60,14 +62,15 @@
 	left: 0;
 }
 
-.playButton {
-	width: 100%;
+.playButtonWrapper {
+	width: 100vw;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.playButton div a {
+.playButtonWrapper div a {
 	padding: 5px 45px;
 	background-color: #3385ff;
 	border-radius: 40px;
@@ -77,27 +80,19 @@
 	transition: 0.5s;
 }
 
-.playButton div a:hover {
+.playButtonWrapper div a:hover {
 	background-color: #0149b8;
 }
 
-@media only screen and (min-width: 1024px) {
-	.wrapper {
-		display: flex;
-		width: 100vw;
-		background-image: url("../../assets/content/title_background.png");
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position-x: right;
-	}
-
+@media only screen and (min-width: 768px) {
 	.title {
 		height: 100vh;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		padding-left: 120px;
+		margin-left: 120px;
 		cursor: default;
+		padding: unset;
 	}
 
 	.title h1 {
@@ -111,6 +106,7 @@
 		width: 400px;
 		font-size: 1.4rem;
 		font-family: "Work Sans", Courier, monospace;
+		margin: unset;
 	}
 
 	.title p span {
@@ -121,6 +117,7 @@
 		display: flex;
 		justify-content: center;
 		width: 400px;
+		margin-top: 10px;
 	}
 
 	.title div a {
@@ -147,24 +144,36 @@
 		left: 0;
 	}
 
-	.playButton {
+	.playButtonWrapper {
 		width: 100%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 	}
 
-	.playButton div a {
+	.playButtonWrapper div a {
 		padding: 5px 45px;
 		background-color: #3385ff;
 		border-radius: 40px;
 		color: white;
 		text-decoration: none;
-		font-size: 5rem;
+		font-size: 4.5rem;
 		transition: 0.5s;
 	}
+}
 
-	.playButton div a:hover {
+@media only screen and (min-width: 1024px) {
+	.wrapper {
+		display: flex;
+		width: 100vw;
+		flex-direction: row;
+		background-image: url("../../assets/content/title_background.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position-x: right;
+	}
+
+	.playButtonWrapper div a:hover {
 		background-color: #0149b8;
 	}
 }

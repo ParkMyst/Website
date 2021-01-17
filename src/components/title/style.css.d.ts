@@ -2,7 +2,7 @@
 declare namespace StyleCssNamespace {
 	export interface IStyleCss {
 		anchor: string;
-		playButton: string;
+		playButtonWrapper: string;
 		roundButton: string;
 		title: string;
 		wrapper: string;
