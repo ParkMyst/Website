@@ -30,15 +30,17 @@ const Header: FunctionalComponent = () => {
     }
 
     return (
-        <header class={classes.join(" ")}>
-            <img src="../../assets/parkmyst_logo.png" />
+        <header className={classes.join(" ")}>
+            <SmoothScroll scrollToId="Title" title="Go to the top of the page">
+                <img src="../../assets/parkmyst_logo.png" alt="Parkmyst logo"/>
+            </SmoothScroll>
             <nav>
-                <SmoothScroll scrollToId="Title">Discover</SmoothScroll>
+                <SmoothScroll scrollToId="Discover">Discover</SmoothScroll>
                 <SmoothScroll scrollToId="AboutUs">About us</SmoothScroll>
                 <SmoothScroll scrollToId="ContactUs">Contact</SmoothScroll>
                 <SmoothScroll scrollToId="HowToPlay">Play</SmoothScroll>
             </nav>
-            <div>
+            <div style={{visibility: transparent ? "hidden" : "visible", opacity: transparent ? "0" : "1"}}>
                 <a href="https://play.parkmyst.hu">Login</a>
             </div>
         </header>

@@ -2,10 +2,9 @@
 declare namespace StyleCssNamespace {
 	export interface IStyleCss {
 		discover: string;
-		imageScroller: string;
+		mainTitle: string;
 		niceImage: string;
 		niceText: string;
-		scrollerImg: string;
 	}
 }
 

@@ -1,8 +1,10 @@
 import { ComponentChildren, FunctionalComponent, h } from "preact";
+import * as style from "./style.css";
 
 interface Props {
     scrollToId: string;
     children: ComponentChildren;
+    title?: string
 }
 
 const SmoothScroll: FunctionalComponent<Props> = props => {
@@ -19,7 +21,7 @@ const SmoothScroll: FunctionalComponent<Props> = props => {
         }
     };
 
-    return <a onClick={handleClick}>{props.children}</a>;
+    return <a className={style.menuItem } title={props.title} onClick={handleClick}> {props.children} </a>;
 };
 
 export default SmoothScroll;
