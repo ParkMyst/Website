@@ -1,1 +1,56 @@
-{}
+{
+  "title": {
+    "discover": "Felfedezés",
+    "contactUs": "Lépj kapcsolatba",
+    "letsPlay": "Játékra fel!",
+    "motto": "Az emberek összekötése <br /> a szórakoztatás <br /><span>erejével</span>"
+  },
+  "discover": {
+    "whatWeDo": {
+      "title": "Mi az a ParkMyst?",
+      "p": "A ParkMyst egy szórakoztatási eszköz."
+    },
+    "create": {
+      "title": "Készítsd el a sajátod",
+      "p": "Intuitív rendszereinkkel, ha meg tudsz álmodni egy játékot, meg is csinálhatod. Az alap bővítményekkel gyrosan készíthetőek játékok."
+    },
+    "title": "Fedezd fel a ParkMystet",
+    "about": {
+      "title": "Dolgokról",
+      "p": "Ide még fogok dolgokat írni."
+    }
+  },
+  "aboutUs": {
+    "introduce": "A csapatról",
+    "p1": " \t\t\tNullam commodo mauris et sem cursus hendrerit. Sed eu feugiat diam. \t\t\tAliquam facilisis eros a sapien hendrerit mattis. Etiam sed velit \t\t\tneque. Etiam nibh felis, tristique id quam vel, posuere iaculis \t\t\tsapien. Fusce lobortis, velit et ultricies congue, erat magna \t\t\tvestibulum urna, vel tempus nisi justo eget libero. Fusce vel \t\t\tporttitor ante, quis placerat lacus. Vivamus finibus ornare dolor, \t\t\tut sagittis velit auctor eu. Duis pulvinar massa sit amet dui \t\t\tmolestie, vel vulputate purus consequat. In id volutpat ipsum. \t\t\tVivamus blandit, mi ac efficitur pharetra, nibh ligula posuere orci, \t\t\teu tempus dolor urna ac nulla. Praesent consequat augue faucibus \t\t\torci fermentum iaculis id in nisi. Sed neque justo, tincidunt et \t\t\tturpis sed, fringilla consequat erat.",
+    "p2": " \t\t\tDuis vitae sem nec mi facilisis dignissim vitae id nisi. Mauris \t\t\tpulvinar ex non mauris pharetra consectetur. Nullam magna risus, \t\t\tfeugiat ut nunc at, congue auctor lacus. Curabitur blandit ipsum \t\t\tpharetra leo convallis, sit amet egestas massa aliquam. Duis vitae \t\t\tneque lorem. Etiam eget rutrum diam. Nullam sit amet leo et neque \t\t\tgravida convallis. Etiam pharetra interdum augue eu hendrerit. \t\t\tVivamus auctor consectetur ultricies. Nullam dictum ultrices ante, \t\t\tnec pulvinar metus condimentum ac. Mauris ultrices lacus nisi. \t\t\tMauris dictum ut ligula sed laoreet. Duis dignissim tempus felis in \t\t\tfermentum. Pellentesque ligula nunc, dignissim sit amet nisl in, \t\t\tfacilisis lacinia justo. Mauris molestie vehicula augue, non \t\t\taccumsan nisl.",
+    "p3": " \t\t\tInterdum et malesuada fames ac ante ipsum primis in faucibus. Donec \t\t\trhoncus at nunc nec fringilla. Quisque lectus sapien, hendrerit a \t\t\trisus sed, pellentesque euismod sapien. Pellentesque lacinia \t\t\tfaucibus dignissim. Sed in convallis risus. Pellentesque vitae est \t\t\tac nisi placerat posuere. Nulla facilisi. Proin semper diam ac erat \t\t\tblandit, sed pretium leo vestibulum. Sed ac sem vulputate orci \t\t\tlobortis egestas. Pellentesque habitant morbi tristique senectus et \t\t\tnetus et malesuada fames ac turpis egestas. Ut rhoncus hendrerit \t\t\teuismod. Nulla pretium efficitur mauris vel accumsan. Vestibulum ac \t\t\teros eget dolor dignissim lacinia vitae a lacus. Aenean lobortis \t\t\tligula id risus gravida, quis tempor lacus fringilla. Morbi justo \t\t\test, hendrerit nec mi vitae, aliquam semper justo."
+  },
+  "play": {
+    "fun": {
+      "p": "Játssz amennyit csak akarsz!",
+      "title": "Szórakoztató"
+    },
+    "customize": {
+      "title": "Testreszabható",
+      "p": "Készítsd el a sajátod. Lorem ipsum."
+    },
+    "fast": {
+      "title": "Gyors",
+      "p": "Még a villámnál is gyorsabbak vagyunk."
+    }
+  },
+  "playNow": "Játssz most!",
+  "header": {
+    "discover": "Felfedezés",
+    "aboutUs": "Rólunk",
+    "contact": "Kapcsolat",
+    "play": "Miért érdemes játszani",
+    "login": "Bejelentkezés"
+  },
+  "contact": {
+    "contact": "Elérhetőség",
+    "p1": " \t\t\tDonec pharetra libero nec lobortis tincidunt. In hac habitasse \t\t\tplatea dictumst. Praesent ut feugiat lacus, vel lobortis mi. Integer \t\t\tsollicitudin, mauris sed accumsan imperdiet, sem lorem vehicula \t\t\tnibh, ut tristique risus nulla eget dui. Sed vestibulum lacus sed \t\t\tposuere placerat. Suspendisse odio erat, scelerisque nec dictum sed, \t\t\tsuscipit at enim. Sed finibus placerat vehicula. Nullam pellentesque \t\t\ttellus ac purus faucibus congue quis eget quam. Cras eleifend nisi \t\t\teu lectus tincidunt, eget convallis orci posuere. Vivamus malesuada \t\t\timperdiet lorem auctor blandit. Ut nec nibh sem.",
+    "p2": " \t\t\tMorbi vitae nisl suscipit nisl tristique egestas. Donec ultricies \t\t\tpurus eu odio volutpat rutrum. Suspendisse in leo vitae tortor \t\t\tmalesuada facilisis vel eu neque. Donec tempor nisi tellus, id \t\t\tfacilisis ante viverra vitae. Cras facilisis hendrerit nulla, sit \t\t\tamet gravida nulla maximus a. Nam efficitur auctor accumsan. Donec a \t\t\tligula sit amet libero sollicitudin fermentum. Quisque vel ante ac \t\t\tligula interdum dignissim ut ut diam. Quisque non sodales eros. \t\t\tMaecenas vitae dolor molestie, venenatis nulla nec, ornare ante. \t\t\tMaecenas sed tempus odio, eget convallis odio. Pellentesque ipsum \t\t\ttortor, vestibulum at ultrices blandit, sagittis sed massa. Nullam \t\t\tin odio malesuada, fermentum lorem ac, convallis augue. Sed nulla \t\t\tsapien, pulvinar sed aliquet a, pellentesque vel arcu. Integer non \t\t\tcommodo urna, a posuere nunc. Fusce et hendrerit velit."
+  }
+}

@@ -3,7 +3,7 @@
 	import SmoothScroll from "./SmoothScroll.svelte";
 	import marked from "marked";
 
-	let html = $_("title.p_html");
+	let html = $_("title.motto");
 </script>
 
 <div class="wrapper">
