@@ -6,12 +6,11 @@
 	<a id="Discover" />
 	<h1 class="mainTitle">{$_("discover.title")}</h1>
 	<div class="niceImage">
-		<img src="/content/promo3.png" alt="promo"/>
+		<img src="/content/promo3.png" alt="promo" />
 	</div>
 	<div class="niceText">
 		<h2>{$_("discover.whatWeDo.title")}</h2>
-		<p>{$_("discover.whatWeDo.p")}
-		</p>
+		<p>{$_("discover.whatWeDo.p")}</p>
 	</div>
 
 	<div class="niceText">
@@ -21,10 +20,10 @@
 		</p>
 	</div>
 	<div class="niceImage">
-		<img src="http://via.placeholder.com/1920x1080" alt="Geri pls"/>
+		<img src="http://via.placeholder.com/1920x1080" alt="Geri pls" />
 	</div>
 	<div class="niceImage">
-		<img src="/content/promo4.png" alt="promo"/>
+		<img src="/content/promo4.png" alt="promo" />
 	</div>
 	<div class="niceText">
 		<h2>{$_("discover.about.title")}</h2>

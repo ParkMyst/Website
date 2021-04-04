@@ -9,7 +9,19 @@ module.exports = {
 
 	darkMode: false, // or 'media' or 'class'
 	theme: {
-		extend: {},
+		colors: {
+			blue: "#3385FF",
+			darkblue: "#0149b8",
+			white: "#f7f8fb",
+			purple: "#5052ae",
+			grey: "#616163",
+			red: "#f5091b",
+		},
+		extend: {
+			backgroundImage: (theme) => ({
+				splash: "url('/content/title_background.png')",
+			}),
+		},
 	},
 	variants: {
 		extend: {},

@@ -1,8 +1,9 @@
 <script>
 	import { _ } from "svelte-i18n";
 	import SmoothScroll from "./SmoothScroll.svelte";
+	import marked from "marked";
 
-	let html = $_("title.p_html")
+	let html = $_("title.p_html");
 </script>
 
 <div class="wrapper">
@@ -10,20 +11,29 @@
 		<a id="Title" class="anchor" />
 		<h1>ParkMyst</h1>
 		<p>
-			{@html html}
+			{@html marked(html)}
 		</p>
 		<div id="buttons">
 			<SmoothScroll scrollTo="Discover">
-				<span class="roundButton">{$_("title.discover")}</span>
+				<span
+					class="text-white bg-blue rounded-xl px-5 py-1 no-underline hover:bg-darkblue"
+					>{$_("title.discover")}</span
+				>
 			</SmoothScroll>
 			<SmoothScroll scrollTo="ContactUs">
-				<span>{$_("title.contactUs")}</span>
+				<span
+					class="text-white bg-grey rounded-xl px-5 py-1 no-underline hover:bg-purple"
+					>{$_("title.contactUs")}</span
+				>
 			</SmoothScroll>
 		</div>
 	</div>
-	<div class="playButtonWrapper">
+	<div class="w-full h-screen flex items-center justify-center">
 		<div>
-			<a href="https://play.parkmyst.hu">{$_("title.letsPlay")}</a>
+			<a
+				class="text-7xl text-white bg-blue rounded-2xl px-5 py-1 no-underline hover:bg-darkblue"
+				href="https://play.parkmyst.hu">{$_("title.letsPlay")}</a
+			>
 		</div>
 	</div>
 </div>
@@ -43,9 +53,11 @@
 
 	.title {
 		display: flex;
+		height: 100%;
 		padding: 45px 10px 0 10px;
 		flex-direction: column;
 		justify-content: center;
+		cursor: default;
 	}
 
 	.title h1 {
@@ -81,47 +93,15 @@
 		padding: 3px 10px;
 	}
 
-	.roundButton {
-		background-color: #3385ff;
-		border-radius: 30px;
-		color: white;
-	}
-
 	.anchor {
 		position: absolute;
 		top: 0;
 		left: 0;
 	}
 
-	.playButtonWrapper {
-		width: 100%;
-		height: 100vh;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.playButtonWrapper div :global(a) {
-		padding: 5px 45px;
-		background-color: #3385ff;
-		border-radius: 40px;
-		color: white;
-		text-decoration: none;
-		font-size: 2rem;
-		transition: 0.5s;
-	}
-
-	.playButtonWrapper div :global(a:hover) {
-		background-color: #0149b8;
-	}
-
 	@media only screen and (min-width: 768px) {
 		.title {
-			height: 100vh;
-			flex-direction: column;
-			justify-content: center;
 			margin-left: 120px;
-			cursor: default;
 			padding: unset;
 		}
 
@@ -139,20 +119,12 @@
 			width: 400px;
 			margin-top: 10px;
 		}
-
-		.playButtonWrapper div :global(a) {
-			font-size: 4.5rem;
-		}
 	}
 
 	@media only screen and (min-width: 1024px) {
 		.wrapper {
 			flex-direction: row;
 			/* background-position-y: calc(100% + 60px); DISABLED UNTIL FIX */
-		}
-
-		.playButtonWrapper div a:hover {
-			background-color: #0149b8;
 		}
 	}
 </style>

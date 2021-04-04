@@ -1,5 +1,6 @@
 dependencies:
     "@rollup/plugin-json": 4.1.0_rollup@2.44.0
+    marked: 2.0.1
     sirv-cli: 1.0.11
     svelte-i18n: 3.3.9_svelte@3.37.0
 devDependencies:
@@ -1333,6 +1334,13 @@ packages:
         dev: true
         resolution:
             integrity: sha512-4CrMT5DOHTDk4HYDlzmwu4FVCcIYI8gauveasrdCu2IKIFOJ3f0v/8MDGJCDL9oD2ppz/Av1b0Nj345H9M+XIA==
+    /marked/2.0.1:
+        dev: false
+        engines:
+            node: ">= 8.16.2"
+        hasBin: true
+        resolution:
+            integrity: sha512-5+/fKgMv2hARmMW7DOpykr2iLhl0NgjyELk5yn92iE7z8Se1IS9n3UsFm86hFXIkvMBmVxki8+ckcpjBeyo/hw==
     /mdn-data/2.0.14:
         dev: true
         resolution:
@@ -2838,6 +2846,7 @@ specifiers:
     "@tsconfig/svelte": ^1.0.0
     autoprefixer: ^10.2.5
     cssnano: ^4.1.10
+    marked: ^2.0.1
     postcss: ^8.2.9
     postcss-import: ^14.0.1
     postcss-load-config: ^3.0.1
