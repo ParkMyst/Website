@@ -20,7 +20,7 @@
 		</p>
 	</div>
 	<div class="niceImage">
-		<img src="http://via.placeholder.com/1920x1080" alt="Geri pls" />
+		<img src="/content/promo5.png" alt="promo" />
 	</div>
 	<div class="niceImage">
 		<img src="/content/promo4.png" alt="promo" />
