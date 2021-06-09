@@ -6,12 +6,20 @@
 	<a id="ContactUs" />
 	<h1>{$_("contact.contact")}</h1>
 	<div class="textWrapper">
-		<p>
+		<h2>
 			{$_("contact.p1")}
-		</p>
-		<p>
-			{$_("contact.p2")}
-		</p>
+		</h2>
+		<ul>
+			<li>
+				{$_("contact.email")}
+			</li>
+			<li>
+				{$_("contact.twitter")}
+			</li>
+			<li>
+				{$_("contact.facebook")}
+			</li>
+		</ul>
 	</div>
 </div>
 

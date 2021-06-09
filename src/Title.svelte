@@ -39,6 +39,12 @@
 </div>
 
 <style>
+	@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+	:global(body) {
+		font-family: 'Work Sans', sans-serif;
+	}
+
 	.wrapper {
 		display: flex;
 		flex-direction: column;
@@ -63,12 +69,10 @@
 	.title h1 {
 		font-size: 3rem;
 		color: #0149b8;
-		font-family: "Work Sans", Courier, monospace;
 		margin: 0;
 	}
 
 	.title p {
-		font-family: "Work Sans", Courier, monospace;
 		margin: 30px 0;
 	}
 

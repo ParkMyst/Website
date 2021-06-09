@@ -6,7 +6,7 @@
 	<a id="HowToPlay" />
 
 	<div class="column">
-		<img src="http://via.placeholder.com/360x360" alt="Geri pls" />
+		<img src="/content/fun.png" alt="promo" />
 		<h1>{$_("play.fun.title")}</h1>
 		<p>
 			{$_("play.fun.p")}
@@ -14,7 +14,7 @@
 	</div>
 
 	<div class="column">
-		<img src="http://via.placeholder.com/360x360" alt="Geri pls" />
+		<img src="/content/customise.png" alt="promo" />
 		<h1>{$_("play.customize.title")}</h1>
 		<p>
 			{$_("play.customize.p")}
@@ -22,7 +22,7 @@
 	</div>
 
 	<div class="column">
-		<img src="http://via.placeholder.com/360x360" alt="Geri pls" />
+		<img src="/content/fast.png" alt="promo" />
 		<h1>{$_("play.fast.title")}</h1>
 		<p>
 			{$_("play.fast.p")}
