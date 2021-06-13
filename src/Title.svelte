@@ -31,7 +31,7 @@
 	<div class="w-full h-screen flex items-center justify-center">
 		<div>
 			<a
-				class="text-7xl text-white bg-blue rounded-2xl px-5 py-1 no-underline hover:bg-darkblue"
+				class="text-7xl text-white bg-blue rounded-full px-10 py-2 no-underline hover:bg-darkblue"
 				href="https://play.parkmyst.hu">{$_("title.letsPlay")}</a
 			>
 		</div>

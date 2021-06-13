@@ -5,12 +5,14 @@
 	import NavBar from "./NavBar.svelte";
 	import Play from "./Play.svelte";
 	import Title from "./Title.svelte";
+	import Gallery from "./Gallery.svelte";
 </script>
 
 <div class="w-full">
 	<NavBar />
 	<div class="w-full">
 		<Title />
+		<Gallery />
 		<Discover />
 		<AboutUs />
 		<Contact />
