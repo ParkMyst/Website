@@ -17,7 +17,7 @@
 			checked="checked"
 		/>
 		<div class="carousel-item absolute opacity-0">
-			<img src="/content/promo3.png" alt="Game shot">
+			<img src="/content/gallery_img_1.png" alt="Game editor shot">
 		</div>
 		<label
 			for="carousel-3"
@@ -40,7 +40,7 @@
 			hidden="true"
 		/>
 		<div class="carousel-item absolute opacity-0">
-			<img src="/content/promo3.png" alt="Game shot">
+			<img src="/content/gallery_img_2.png" alt="Game tester shot">
 		</div>
 		<label
 			for="carousel-1"
@@ -63,7 +63,7 @@
 			hidden="true"
 		/>
 		<div class="carousel-item absolute opacity-0">
-			<img src="/content/title_background.png" alt="Game shot">
+			<img src="/content/gallery_img_3.jpg" alt="Game shot">
 		</div>
 		<label
 			for="carousel-2"
@@ -117,6 +117,7 @@
 		-webkit-transition: opacity 0.6s ease-out;
 		transition: opacity 0.6s ease-out;
 	}
+
 	#carousel-1:checked ~ .control-1,
 	#carousel-2:checked ~ .control-2,
 	#carousel-3:checked ~ .control-3 {
