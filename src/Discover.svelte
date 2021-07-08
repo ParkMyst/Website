@@ -11,6 +11,12 @@
 	<div class="niceText">
 		<h2>{$_("discover.whatWeDo.title")}</h2>
 		<p>{$_("discover.whatWeDo.p")}</p>
+		<div class="mt-4">
+			<a
+				class="text-3xl text-white bg-blue rounded-xl px-8 py-2 no-underline hover:bg-darkblue"
+				href="https://play.parkmyst.hu">{$_("discover.readmore")}</a
+			>
+		</div>
 	</div>
 
 	<div class="niceText">
@@ -18,10 +24,17 @@
 		<p>
 			{$_("discover.create.p")}
 		</p>
+		<div class="mt-4">
+			<a
+				class="text-3xl text-white bg-blue rounded-xl px-8 py-2 no-underline hover:bg-darkblue"
+				href="https://play.parkmyst.hu">{$_("discover.readmore")}</a
+			>
+		</div>
 	</div>
 	<div class="niceImage">
 		<img src="/content/promo5.png" alt="promo" />
 	</div>
+
 	<div class="niceImage">
 		<img src="/content/promo4.png" alt="promo" />
 	</div>
@@ -30,8 +43,14 @@
 		<p>
 			{$_("discover.about.p")}
 		</p>
+		<div class="mt-4">
+			<a
+				class="text-3xl text-white bg-blue rounded-xl px-8 py-2 no-underline hover:bg-darkblue"
+				href="https://marcius15.parkmyst.hu/">{$_("discover.try")}</a
+			>
+		</div>
 	</div>
-</div>
+	</div>
 
 <style>
 	.discover {

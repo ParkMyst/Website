@@ -21,7 +21,7 @@
 
 <style>
 	.aboutUs {
-		background: rgba(0, 0, 0, 0.1);
+		background: #d3dff083;;
 		padding-bottom: 40px;
 	}
 

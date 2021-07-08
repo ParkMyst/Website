@@ -63,6 +63,7 @@
 	.column p {
 		padding: 0 10px;
 		margin: 0 0 20px 0;
+		text-align: center;
 	}
 
 	.playContainer {

@@ -32,7 +32,10 @@
         "about": {
             "title": "ParkMyst;Gate",
             "p": "Fancy trying a game? Hop in one with ParkMyst;Gate and invite your friends too!"
-        }
+        },
+        "try": "Try a game!",
+        "": {},
+        "readmore": "Read more"
     },
     "playNow": "Play now!",
     "play": {
